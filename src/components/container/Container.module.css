@@ -1,9 +1,9 @@
 .main {
-    @apply bg-Navy-50 w-screen h-auto flex justify-center items-center;
+    @apply bg-Navy-50 w-screen h-auto flex justify-center items-center ;
 }
 
 .container {
-    @apply flex flex-col justify-center bg-White mobile:w-[70%] desktop:w-[60%]  mobile:m-[2%] desktop:m-[4%] rounded-[2%] p-[1%] mobile:p-[2%] gap-3;
+    @apply flex flex-col justify-center bg-White mobile:w-[70%] desktop:w-[60%]  mobile:m-[2%] desktop:m-[4%] rounded-[2%] p-[1%] mobile:p-[2%] gap-3 shadow-md;
 }
 
 .container__inner {
