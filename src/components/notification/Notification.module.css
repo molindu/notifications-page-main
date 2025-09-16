@@ -1,0 +1,51 @@
+.container {
+    @apply flex flex-col justify-center;
+}
+
+.container_inner {
+    @apply flex flex-row gap-2 p-4 rounded-lg items-center justify-between;
+}
+
+.notification {
+    @apply flex flex-row gap-2;
+}
+
+.notification__userAvatar {
+    @apply w-12 h-12
+}
+
+.notification__inner {
+    @apply flex flex-col
+}
+
+.notification__body {
+    @apply flex flex-row gap-1 items-center
+}
+
+.userName {
+    @apply font-bold text-Navy-950 cursor-pointer hover:text-Blue-950;
+}
+
+.action {
+    @apply text-Gray-500;
+}
+
+.target {
+    @apply font-bold text-Gray-600 cursor-pointer hover:text-Blue-950;
+}
+
+.group {
+    @apply font-bold text-Gray-600 cursor-pointer hover:text-Blue-950;
+}
+
+.timeAgo {
+    @apply text-Gray-500;
+}
+
+.postImage {
+    @apply w-12 h-12 cursor-pointer hover:border-[2px] border-Blue-100 rounded-lg right-1;
+}
+
+.message {
+    @apply hover:bg-Navy-100 rounded-md p-3 cursor-pointer border-[1.5px] w-[70%] mobile:w-[85%] mobile:ml-[8%] ml-[12%] border-Navy-100 right-1;
+}
