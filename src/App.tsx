@@ -42,7 +42,12 @@ const App = () => {
         return <div className="flex justify-center items-center h-screen text-red-500">{error}</div>;
     }
 
-    return <Container data={notifications} onRead={handleRead} unreadCount={unreadCount} markAllAsRead={markAllAsRead} />;
+    return <Container
+        data={notifications}
+        onRead={handleRead}
+        unreadCount={unreadCount}
+        markAllAsRead={markAllAsRead}
+    />;
 };
 
 export default App;
